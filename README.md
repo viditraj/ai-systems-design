@@ -21,7 +21,7 @@ Each system design covers:
 - 🛡️ Scalability, Reliability & Security
 - 📊 Monitoring & Evaluation
 
-Architecture diagrams are provided using **Excalidraw** wherever possible.
+Architecture diagrams can be provided using **Excalidraw** or represented directly in Markdown when a visual artifact is not included.
 
 ---
 
@@ -29,7 +29,8 @@ Architecture diagrams are provided using **Excalidraw** wherever possible.
 
 | System | Topics |
 |---|---|
-| 🤖 AI Customer Support Agent for Netflix | LLM, RAG, Agents, Tools |
+| [🤖 Netflix Customer Support Agent](./systems/netflix-customer-support-agent/) | LLM, RAG, Agents, Tools, Refunds, Human-in-the-loop |
+
 > 🚧 More designs coming soon.
 
 ---
@@ -64,22 +65,12 @@ The goal is **not to memorize architectures**, but to understand how to arrive a
 
 ```text
 systems/
-├── ai-customer-support/
-│   ├── README.md
-│   └── architecture.excalidraw
-│
-├── enterprise-rag/
-│   ├── README.md
-│   └── architecture.excalidraw
-│
-├── coding-agent/
-│   ├── README.md
-│   └── architecture.excalidraw
-│
-└── ai-search/
+└── netflix-customer-support-agent/
     ├── README.md
-    └── architecture.excalidraw
+    └── architecture.md
 ```
+
+Each system can contain its own detailed architecture, flows, diagrams, estimations, trade-offs, and production considerations.
 
 ---
 
