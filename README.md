@@ -29,13 +29,7 @@ Architecture diagrams are provided using **Excalidraw** wherever possible.
 
 | System | Topics |
 |---|---|
-| 🤖 AI Customer Support Agent | LLM, RAG, Agents, Tools |
-| 🧠 Enterprise RAG | RAG, Vector DB, Retrieval |
-| 💻 Coding Agent | LLM, Agents, Codebase RAG |
-| 🔎 AI Search Engine | Embeddings, Search, Ranking |
-| 📄 Document Intelligence | OCR, RAG, LLM |
-| 🛒 AI Shopping Assistant | Agents, Recommendations, RAG |
-
+| 🤖 AI Customer Support Agent for Netflix | LLM, RAG, Agents, Tools |
 > 🚧 More designs coming soon.
 
 ---
