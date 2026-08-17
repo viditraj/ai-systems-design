@@ -30,6 +30,7 @@ Architecture diagrams can be provided using **Excalidraw** or represented direct
 | System | Topics |
 |---|---|
 | [🤖 Netflix Customer Support Agent](./systems/netflix-customer-support-agent/) | LLM, RAG, Agents, Tools, Refunds, Human-in-the-loop |
+| [🏢 Enterprise AI Assistant](./systems/enterprise-ai-assistant/) | LLM, RAG, Hybrid Search, Agents, Tools, ACLs, Human-in-the-loop, Enterprise AI |
 
 > 🚧 More designs coming soon.
 
@@ -65,7 +66,11 @@ The goal is **not to memorize architectures**, but to understand how to arrive a
 
 ```text
 systems/
-└── netflix-customer-support-agent/
+├── netflix-customer-support-agent/
+│   ├── README.md
+│   └── architecture.md
+│
+└── enterprise-ai-assistant/
     ├── README.md
     └── architecture.md
 ```
