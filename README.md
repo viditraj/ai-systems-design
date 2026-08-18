@@ -20,6 +20,7 @@ Each system design covers:
 - ⚖️ Trade-offs & Design Decisions
 - 🛡️ Scalability, Reliability & Security
 - 📊 Monitoring & Evaluation
+- 🎤 Complete Mock Interview Walkthrough
 
 Architecture diagrams can be provided using **Excalidraw** or represented directly in Markdown when a visual artifact is not included.
 
@@ -31,6 +32,7 @@ Architecture diagrams can be provided using **Excalidraw** or represented direct
 |---|---|
 | [🤖 Netflix Customer Support Agent](./systems/netflix-customer-support-agent/) | LLM, RAG, Agents, Tools, Refunds, Human-in-the-loop |
 | [🏢 Enterprise AI Assistant](./systems/enterprise-ai-assistant/) | LLM, RAG, Hybrid Search, Agents, Tools, ACLs, Human-in-the-loop, Enterprise AI |
+| [▶️ YouTube Video Recommendation System](./systems/youtube-video-recommendation/) | Recommenders, Embeddings, ANN, Candidate Generation, Ranking, Multi-task Learning, Exploration, Cold Start, A/B Testing |
 
 > 🚧 More designs coming soon.
 
@@ -56,6 +58,8 @@ AI/ML Design
 Trade-offs
    ↓
 Production Considerations
+   ↓
+Mock Interview
 ```
 
 The goal is **not to memorize architectures**, but to understand how to arrive at the right design.
@@ -68,20 +72,27 @@ The goal is **not to memorize architectures**, but to understand how to arrive a
 systems/
 ├── netflix-customer-support-agent/
 │   ├── README.md
-│   └── architecture.md
+│   ├── architecture.md
+│   └── mock-interview.md
 │
-└── enterprise-ai-assistant/
+├── enterprise-ai-assistant/
+│   ├── README.md
+│   ├── architecture.md
+│   └── mock-interview.md
+│
+└── youtube-video-recommendation/
     ├── README.md
-    └── architecture.md
+    ├── architecture.md
+    └── mock-interview.md
 ```
 
-Each system can contain its own detailed architecture, flows, diagrams, estimations, trade-offs, and production considerations.
+Each system can contain its own detailed architecture, flows, estimations, trade-offs, production considerations, and interview walkthrough.
 
 ---
 
 ## 🎯 Goal
 
-Learn how to design **scalable, reliable and production-ready AI systems** — from LLM applications and RAG pipelines to agentic systems and AI infrastructure.
+Learn how to design **scalable, reliable and production-ready AI systems** — from LLM applications and RAG pipelines to agentic systems, recommendation engines, ranking systems, and AI infrastructure.
 
 > **Don't memorize the architecture. Learn the reasoning behind it.**
 
