@@ -33,9 +33,9 @@ Architecture diagrams can be provided using **Excalidraw** or represented direct
 | [🤖 Netflix Customer Support Agent](./systems/netflix-customer-support-agent/) | LLM, RAG, Agents, Tools, Refunds, Human-in-the-loop |
 | [🏢 Enterprise AI Assistant](./systems/enterprise-ai-assistant/) | LLM, RAG, Hybrid Search, Agents, Tools, ACLs, Human-in-the-loop, Enterprise AI |
 | [🏥 Hospital Agentic Care Assistant](./systems/hospital-agentic-care-assistant/) | Agentic Workflows, Durable State, Kafka, Human-in-the-loop, Clinical Safety, Idempotency, Scaling |
+| [✈️ Expedia AI Travel Agent](./systems/expedia-ai-travel-agent/) | AI Agents, Travel Planning, Search, Ranking, Live Inventory, Booking, Payments, Durable Workflows, Human-in-the-loop |
+| [🔌 Production-Grade MCP Server](./systems/mcp-server/) | MCP, Tool Discovery, Tool Calling, Agents, Authorization, Security, Multi-tenancy, Scaling, Reliability |
 | [▶️ YouTube Video Recommendation System](./systems/youtube-video-recommendation/) | Recommenders, Embeddings, ANN, Candidate Generation, Ranking, Multi-task Learning, Exploration, Cold Start, A/B Testing |
-
-> 🚧 More designs coming soon.
 
 ---
 
@@ -82,6 +82,16 @@ systems/
 │   └── mock-interview.md
 │
 ├── hospital-agentic-care-assistant/
+│   ├── README.md
+│   ├── architecture.md
+│   └── mock-interview.md
+│
+├── expedia-ai-travel-agent/
+│   ├── README.md
+│   ├── architecture.md
+│   └── mock-interview.md
+│
+├── mcp-server/
 │   ├── README.md
 │   ├── architecture.md
 │   └── mock-interview.md
