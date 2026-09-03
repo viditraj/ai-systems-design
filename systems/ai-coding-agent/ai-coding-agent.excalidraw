@@ -1,11 +1,1 @@
-{
-  "type": "excalidraw",
-  "version": 2,
-  "source": "https://excalidraw.com",
-  "elements": [],
-  "appState": {
-    "gridSize": 20,
-    "viewBackgroundColor": "#ffffff"
-  },
-  "files": {}
-}
+{"type":"excalidraw","version":2,"source":"https://excalidraw.com","elements":[{"id":"a","type":"rectangle","x":80,"y":80,"width":300,"height":100,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"#f7f7f7","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":null,"updated":1,"link":null,"locked":false},{"id":"b","type":"text","x":120,"y":115,"width":220,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"stroke_style":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":null,"updated":1,"link":null,"locked":false,"text":"AI Coding Agent","fontSize":24,"fontFamily":1,"textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"AI Coding Agent","autoResize":true,"lineHeight":1.25}],"appState":{"gridSize":20,"viewBackgroundColor":"#ffffff"},"files":{}}
