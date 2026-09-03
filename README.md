@@ -33,6 +33,7 @@ Architecture diagrams can be provided using **Excalidraw** or represented direct
 | [🤖 Netflix Customer Support Agent](./systems/netflix-customer-support-agent/) | LLM, RAG, Agents, Tools, Refunds, Human-in-the-loop |
 | [🏢 Enterprise AI Assistant](./systems/enterprise-ai-assistant/) | LLM, RAG, Hybrid Search, Agents, Tools, ACLs, Human-in-the-loop, Enterprise AI |
 | [📚 Enterprise RAG Platform](./systems/enterprise-rag-platform/) | RAG, Hybrid Retrieval, BM25, ANN, Reranking, ACLs, Freshness, Evaluation, Multi-region, Scaling, Cost |
+| [💻 AI Coding Agent](./systems/ai-coding-agent/) | Coding Agents, Code RAG, Symbol Graphs, Tool Calling, Sandboxing, SWE Automation, Testing, Durable Workflows, Security |
 | [🏥 Hospital Agentic Care Assistant](./systems/hospital-agentic-care-assistant/) | Agentic Workflows, Durable State, Kafka, Human-in-the-loop, Clinical Safety, Idempotency, Scaling |
 | [✈️ Expedia AI Travel Agent](./systems/expedia-ai-travel-agent/) | AI Agents, Travel Planning, Search, Ranking, Live Inventory, Booking, Payments, Durable Workflows, Human-in-the-loop |
 | [🔌 Production-Grade MCP Server](./systems/mcp-server/) | MCP, Tool Discovery, Tool Calling, Agents, Authorization, Security, Multi-tenancy, Scaling, Reliability |
@@ -80,11 +81,20 @@ systems/
 ├── enterprise-ai-assistant/
 │   ├── README.md
 │   ├── architecture.md
+│   ├── enterprise-ai-assistant.excalidraw
+│   ├── enterprise-ai-assistant.png
 │   └── mock-interview.md
 │
 ├── enterprise-rag-platform/
 │   ├── README.md
 │   ├── architecture.md
+│   └── mock-interview.md
+│
+├── ai-coding-agent/
+│   ├── README.md
+│   ├── architecture.md
+│   ├── ai-coding-agent.excalidraw
+│   ├── ai-coding-agent.png
 │   └── mock-interview.md
 │
 ├── hospital-agentic-care-assistant/
